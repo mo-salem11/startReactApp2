@@ -8,7 +8,7 @@ function About() {
   return (
     <>
     
-  <div className={`${css.about} text-light position-absolute w-100 h-100 d-flex align-items-center`}>
+  <div className={`${css.about} text-light py-5  d-flex align-items-center`}>
      
     <div className="container mt-5">
     <Star color="white" title="ABOUT COMPONENT"/>

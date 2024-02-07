@@ -11,7 +11,7 @@ import Layout from './components/Layout/Layout';
 function App() {
 
  let routes= createBrowserRouter([
-    {path:"",element:<Layout/>,children:[
+    {path:"startReactApp2",element:<Layout/>,children:[
       {index:true,element:<About/>},
       {path:"portfolio",element:<Portfolio/>},
       {path:"*",element:<NotFound/>},
