@@ -56,7 +56,7 @@ function NavBar({ onHeightChange }) {
                   onClick={() => {
                     setPathName("/");
                   }}
-                  to={"/"}
+                  to={""}
                   className={`${pathName === '/' ? `nav-link ${css.active} text-white text-uppercase fw-bold` : `nav-link text-white text-uppercase fw-bold`}`}
                 >
                   about
@@ -67,7 +67,7 @@ function NavBar({ onHeightChange }) {
                   onClick={() => {
                     setPathName("/portfolio");
                   }}
-                  to={"/portfolio"}
+                  to={"portfolio"}
                   className={`${pathName === '/portfolio' ? `nav-link ${css.active} text-white text-uppercase fw-bold` : `nav-link text-white text-uppercase fw-bold`}`}
                 >
                   portfolio
@@ -78,7 +78,7 @@ function NavBar({ onHeightChange }) {
                   onClick={() => {
                     setPathName("/contact");
                   }}
-                  to={"/contact"}
+                  to={"contact"}
                   className={`${pathName === '/contact' ? `nav-link ${css.active} text-white text-uppercase fw-bold` : `nav-link text-white text-uppercase fw-bold`}`}
                 >
                   contacts

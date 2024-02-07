@@ -20,10 +20,10 @@ function Contact() {
   return (
     <>
       <div
-        className="container pt-5"
+        className="container py-5"
       >
          <Star title="CONTACT COMPONENT" color="#2c3e50"/>
-                <form action className="w-50 mx-auto mt-5">
+                <form action className="w-75 mx-auto mt-5">
                   <label htmlFor="userName" className={getLabelClass('userName')}>userName : </label>
                   <input 
                   type="text" 
@@ -62,7 +62,7 @@ function Contact() {
                          value={formData.userPassword}
                          onChange={handleChange}
                          />
-                 <button className="btn btn-primary mt-4">Send Message</button>
+                 <button className="btn btn-primary d-block mx-auto ms-md-auto mt-4">Send Message</button>
               </form>
    
       </div>
